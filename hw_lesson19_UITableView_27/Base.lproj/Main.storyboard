@@ -16,20 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KD7-qG-fnk">
-                                <rect key="frame" x="30" y="118" width="354" height="665"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KD7-qG-fnk">
+                                <rect key="frame" x="20" y="108" width="374" height="685"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KD7-qG-fnk" secondAttribute="trailing" constant="30" id="4xK-cR-g17"/>
-                            <constraint firstItem="KD7-qG-fnk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="5XB-Xw-4Aw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KD7-qG-fnk" secondAttribute="bottom" constant="30" id="COW-yv-Nvq"/>
-                            <constraint firstItem="KD7-qG-fnk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="W1Q-PI-VMQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KD7-qG-fnk" secondAttribute="trailing" constant="20" id="4xK-cR-g17"/>
+                            <constraint firstItem="KD7-qG-fnk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5XB-Xw-4Aw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KD7-qG-fnk" secondAttribute="bottom" constant="20" id="COW-yv-Nvq"/>
+                            <constraint firstItem="KD7-qG-fnk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="W1Q-PI-VMQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="nOJ-gJ-VW2"/>
+                    <connections>
+                        <outlet property="imageView" destination="KD7-qG-fnk" id="Gbq-eg-gbE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,6 +85,9 @@
                         <viewLayoutGuide key="safeArea" id="8fc-d0-0sg"/>
                     </view>
                     <navigationItem key="navigationItem" id="Of0-sL-vTp"/>
+                    <connections>
+                        <outlet property="textView" destination="inS-TX-eLQ" id="NK8-jA-qUo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1oL-Me-EEV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,22 +9,21 @@
 import UIKit
 
 class HomeViewController: ViewController {
-
+    
+    @IBOutlet private var imageView: UIImageView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setupImage(name: "BashnaEvoluciaMoskva")    }
+    
+    func setupImage(name: String?) {
+        if let pictureName = name {
+            let image = UIImage(named: pictureName) ?? UIImage(named: "emptyPicture")
+            self.imageView?.image = image
+        } else {
+            self.imageView? = UIImageView()
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

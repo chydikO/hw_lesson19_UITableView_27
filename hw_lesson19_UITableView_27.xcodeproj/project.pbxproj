@@ -21,6 +21,7 @@
 		AF863DDB247D296700F710FD /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DDA247D296700F710FD /* TableCell.swift */; };
 		AF863DDF247D29C200F710FD /* ContactTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DDD247D29C200F710FD /* ContactTableCell.swift */; };
 		AF863DE0247D29C200F710FD /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF863DDE247D29C200F710FD /* ContactTableCell.xib */; };
+		AF863DE3247D575A00F710FD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DE2247D575A00F710FD /* Test.swift */; };
 		AF8B5065247BBD9200CE88E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B5064247BBD9200CE88E9 /* AppDelegate.swift */; };
 		AF8B506C247BBD9200CE88E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506A247BBD9200CE88E9 /* Main.storyboard */; };
 		AF8B506E247BBD9800CE88E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506D247BBD9800CE88E9 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		AF863DDA247D296700F710FD /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		AF863DDD247D29C200F710FD /* ContactTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableCell.swift; sourceTree = "<group>"; };
 		AF863DDE247D29C200F710FD /* ContactTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableCell.xib; sourceTree = "<group>"; };
+		AF863DE2247D575A00F710FD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AF8B5061247BBD9200CE88E9 /* hw_lesson19_UITableView_27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_lesson19_UITableView_27.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8B5064247BBD9200CE88E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8B506B247BBD9200CE88E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		AF863DBC247D25EC00F710FD /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AF863DE1247D573D00F710FD /* Utils */,
 				AF863DD9247D295200F710FD /* Views */,
 				AF863DBD247D25FD00F710FD /* Common */,
 				AF863DC0247D263600F710FD /* NavigationController.swift */,
@@ -131,6 +134,14 @@
 				AF863DDE247D29C200F710FD /* ContactTableCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		AF863DE1247D573D00F710FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AF863DE2247D575A00F710FD /* Test.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		AF8B5058247BBD9200CE88E9 = {
@@ -267,6 +278,7 @@
 				AF863DC4247D263600F710FD /* TableViewController.swift in Sources */,
 				AF863DC3247D263600F710FD /* NavigationController.swift in Sources */,
 				AF863DBB247D259700F710FD /* NSObject.swift in Sources */,
+				AF863DE3247D575A00F710FD /* Test.swift in Sources */,
 				AF863DBF247D262C00F710FD /* SeparatedProtocol.swift in Sources */,
 				AF863DC7247D269E00F710FD /* HomeViewController.swift in Sources */,
 				AF863DD1247D282100F710FD /* UserInfoViewController.swift in Sources */,

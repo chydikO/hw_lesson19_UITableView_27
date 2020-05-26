@@ -10,21 +10,18 @@ import UIKit
 
 class AboutViewController: ViewController {
 
+    @IBOutlet private var textView: UITextView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setText(text: Test.text)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setText(text: String?){
+        if let text = text {
+            textView?.text = text
+        }
     }
-    */
 
 }
