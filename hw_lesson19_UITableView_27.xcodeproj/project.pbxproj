@@ -18,6 +18,9 @@
 		AF863DCE247D26F600F710FD /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DCD247D26F600F710FD /* ContactViewController.swift */; };
 		AF863DD1247D282100F710FD /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DCF247D282100F710FD /* UserInfoViewController.swift */; };
 		AF863DD2247D282100F710FD /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF863DD0247D282100F710FD /* UserInfoViewController.xib */; };
+		AF863DDB247D296700F710FD /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DDA247D296700F710FD /* TableCell.swift */; };
+		AF863DDF247D29C200F710FD /* ContactTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF863DDD247D29C200F710FD /* ContactTableCell.swift */; };
+		AF863DE0247D29C200F710FD /* ContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF863DDE247D29C200F710FD /* ContactTableCell.xib */; };
 		AF8B5065247BBD9200CE88E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B5064247BBD9200CE88E9 /* AppDelegate.swift */; };
 		AF8B506C247BBD9200CE88E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506A247BBD9200CE88E9 /* Main.storyboard */; };
 		AF8B506E247BBD9800CE88E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506D247BBD9800CE88E9 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 		AF863DCD247D26F600F710FD /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		AF863DCF247D282100F710FD /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		AF863DD0247D282100F710FD /* UserInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		AF863DDA247D296700F710FD /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		AF863DDD247D29C200F710FD /* ContactTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableCell.swift; sourceTree = "<group>"; };
+		AF863DDE247D29C200F710FD /* ContactTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableCell.xib; sourceTree = "<group>"; };
 		AF8B5061247BBD9200CE88E9 /* hw_lesson19_UITableView_27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_lesson19_UITableView_27.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8B5064247BBD9200CE88E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF8B506B247BBD9200CE88E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +64,8 @@
 		AF863DBC247D25EC00F710FD /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				AF863DD9247D295200F710FD /* Views */,
+				AF863DBD247D25FD00F710FD /* Common */,
 				AF863DC0247D263600F710FD /* NavigationController.swift */,
 				AF863DC1247D263600F710FD /* TableViewController.swift */,
 				AF863DC2247D263600F710FD /* ViewController.swift */,
@@ -92,6 +100,7 @@
 		AF863DCC247D26E100F710FD /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				AF863DDC247D299200F710FD /* Cells */,
 				AF863DCD247D26F600F710FD /* ContactViewController.swift */,
 				AF863DD3247D283300F710FD /* UserInfo */,
 			);
@@ -105,6 +114,23 @@
 				AF863DD0247D282100F710FD /* UserInfoViewController.xib */,
 			);
 			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		AF863DD9247D295200F710FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF863DDA247D296700F710FD /* TableCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF863DDC247D299200F710FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AF863DDD247D29C200F710FD /* ContactTableCell.swift */,
+				AF863DDE247D29C200F710FD /* ContactTableCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		AF8B5058247BBD9200CE88E9 = {
@@ -144,7 +170,6 @@
 				AF863DCC247D26E100F710FD /* Contact */,
 				AF863DC9247D26C600F710FD /* About */,
 				AF863DC8247D26B100F710FD /* Home */,
-				AF863DBD247D25FD00F710FD /* Common */,
 				AF863DBC247D25EC00F710FD /* Base */,
 			);
 			path = UI;
@@ -226,6 +251,7 @@
 			files = (
 				AF8B5071247BBD9800CE88E9 /* LaunchScreen.storyboard in Resources */,
 				AF863DD2247D282100F710FD /* UserInfoViewController.xib in Resources */,
+				AF863DE0247D29C200F710FD /* ContactTableCell.xib in Resources */,
 				AF8B506E247BBD9800CE88E9 /* Assets.xcassets in Resources */,
 				AF8B506C247BBD9200CE88E9 /* Main.storyboard in Resources */,
 			);
@@ -244,6 +270,8 @@
 				AF863DBF247D262C00F710FD /* SeparatedProtocol.swift in Sources */,
 				AF863DC7247D269E00F710FD /* HomeViewController.swift in Sources */,
 				AF863DD1247D282100F710FD /* UserInfoViewController.swift in Sources */,
+				AF863DDF247D29C200F710FD /* ContactTableCell.swift in Sources */,
+				AF863DDB247D296700F710FD /* TableCell.swift in Sources */,
 				AF863DCE247D26F600F710FD /* ContactViewController.swift in Sources */,
 				AF863DB9247D243400F710FD /* Employee.swift in Sources */,
 				AF863DC5247D263600F710FD /* ViewController.swift in Sources */,
