@@ -26,6 +26,8 @@
 		AF8B506C247BBD9200CE88E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506A247BBD9200CE88E9 /* Main.storyboard */; };
 		AF8B506E247BBD9800CE88E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506D247BBD9800CE88E9 /* Assets.xcassets */; };
 		AF8B5071247BBD9800CE88E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8B506F247BBD9800CE88E9 /* LaunchScreen.storyboard */; };
+		AFB4E2C5247D5EB200DF14CB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E2C3247D5EB200DF14CB /* InfoViewController.swift */; };
+		AFB4E2C6247D5EB200DF14CB /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB4E2C4247D5EB200DF14CB /* InfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		AF8B506D247BBD9800CE88E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF8B5070247BBD9800CE88E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF8B5072247BBD9800CE88E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB4E2C3247D5EB200DF14CB /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		AFB4E2C4247D5EB200DF14CB /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		AF863DC8247D26B100F710FD /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				AFB4E2C2247D5E8B00DF14CB /* Info */,
 				AF863DC6247D269E00F710FD /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -202,6 +207,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		AFB4E2C2247D5E8B00DF14CB /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				AFB4E2C3247D5EB200DF14CB /* InfoViewController.swift */,
+				AFB4E2C4247D5EB200DF14CB /* InfoViewController.xib */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +278,7 @@
 				AF863DD2247D282100F710FD /* UserInfoViewController.xib in Resources */,
 				AF863DE0247D29C200F710FD /* ContactTableCell.xib in Resources */,
 				AF8B506E247BBD9800CE88E9 /* Assets.xcassets in Resources */,
+				AFB4E2C6247D5EB200DF14CB /* InfoViewController.xib in Resources */,
 				AF8B506C247BBD9200CE88E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +294,7 @@
 				AF863DC3247D263600F710FD /* NavigationController.swift in Sources */,
 				AF863DBB247D259700F710FD /* NSObject.swift in Sources */,
 				AF863DE3247D575A00F710FD /* Test.swift in Sources */,
+				AFB4E2C5247D5EB200DF14CB /* InfoViewController.swift in Sources */,
 				AF863DBF247D262C00F710FD /* SeparatedProtocol.swift in Sources */,
 				AF863DC7247D269E00F710FD /* HomeViewController.swift in Sources */,
 				AF863DD1247D282100F710FD /* UserInfoViewController.swift in Sources */,

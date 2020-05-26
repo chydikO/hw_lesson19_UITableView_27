@@ -14,7 +14,7 @@ class HomeViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Home"
         setupImage(name: "BashnaEvoluciaMoskva")    }
     
     func setupImage(name: String?) {
