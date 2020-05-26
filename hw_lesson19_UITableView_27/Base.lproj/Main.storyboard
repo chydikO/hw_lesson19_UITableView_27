@@ -11,7 +11,7 @@
         <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="-354" y="660"/>
         </scene>
-        <!--View Controller-->
+        <!--About View Controller-->
         <scene sceneID="HRf-VG-Sm2">
             <objects>
-                <viewController id="ftQ-m7-1xv" sceneMemberID="viewController">
+                <viewController id="ftQ-m7-1xv" customClass="AboutViewController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3GR-Xk-9pw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
         <!--Navigation Controller-->
         <scene sceneID="p97-Ft-1eD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3YE-1u-H3c" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3YE-1u-H3c" customClass="NavigationController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="icons8-home-50" id="BbE-Lm-wVv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wtJ-vX-7hf">
@@ -109,7 +109,7 @@
         <!--Navigation Controller-->
         <scene sceneID="gVZ-ds-Ng2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z52-yV-ubX" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z52-yV-ubX" customClass="NavigationController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="icons8-high-importance-50" id="N9k-u5-NGP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TJk-fX-Xra">
@@ -125,10 +125,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="803.57142857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact View Controller-->
         <scene sceneID="RH9-lD-tdp">
             <objects>
-                <viewController id="qci-Zh-tXQ" sceneMemberID="viewController">
+                <viewController id="qci-Zh-tXQ" customClass="ContactViewController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ckd-3w-DZM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
         <!--Navigation Controller-->
         <scene sceneID="kne-PQ-erf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l48-YU-lO5" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l48-YU-lO5" customClass="NavigationController" customModule="hw_lesson19_UITableView_27" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="icons8-contact-50" id="fvV-sh-Gut"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Ew-cM-QHn">
