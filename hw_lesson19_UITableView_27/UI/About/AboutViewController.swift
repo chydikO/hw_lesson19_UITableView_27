@@ -14,7 +14,7 @@ class AboutViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "About"
         setText(text: Test.text)
     }
     
