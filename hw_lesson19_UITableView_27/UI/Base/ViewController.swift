@@ -47,17 +47,37 @@ class ViewController: UIViewController {
             // create back button
             self.navigationItem.leftBarButtonItem = self.createBackButton()
         }
+
+        // если текущий рутовый контролер
+        // добавляем кнопку "ИНФО"
+        if self == self.navigationController?.viewControllers.first as? HomeViewController {
+            // create back button
+            self.navigationItem.rightBarButtonItem = self.createInfoButton()
+        }
     }
     
     func createBackButton() -> UIBarButtonItem? {
-        let backButton = UIBarButtonItem(image: UIImage(named: "backButton"),
+        let backButton = UIBarButtonItem(image: UIImage(named: "icons8-go-back-48"),
                                          style: UIBarButtonItem.Style.done,
                                          target: self,
                                          action: #selector(backButtonClicked))
         return backButton
     }
     
+    func createInfoButton() -> UIBarButtonItem? {
+        let backButton = UIBarButtonItem(image: UIImage(named: "icons8-info-48"),
+                                         style: UIBarButtonItem.Style.done,
+                                         target: self,
+                                         action: #selector(infoButtonClicked))
+        return backButton
+    }
+    
     @IBAction func backButtonClicked() {
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func infoButtonClicked() {
+        let controller = InfoViewController(text: Test.text)
+        self.navigationController?.pushViewController(controller, animated: true)
     }
 }
