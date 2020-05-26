@@ -1,5 +1,5 @@
 //
-//  ContactViewController.swift
+//  UserInfoViewController.swift
 //  hw_lesson19_UITableView_27
 //
 //  Created by Олег Чудновский on 26.05.2020.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ContactViewController: TableViewController {
+class UserInfoViewController: ViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
