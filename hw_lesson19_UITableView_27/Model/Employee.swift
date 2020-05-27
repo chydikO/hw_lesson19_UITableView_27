@@ -9,14 +9,16 @@
 import Foundation
 
 class Employee {
-    let name: String
-    let image: String?
+    let firstName: String
+    let lastName: String
+    let imageName: String?
     let phone: String?
     let email: String?
     
-    init(name: String, image: String?, phone: String?, email: String?) {
-        self.name = name
-        self.image = image
+    init(firstName: String, lastName: String, imageName: String?, phone: String?, email: String?) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.imageName = imageName
         self.phone = phone
         self.email = email
     }
