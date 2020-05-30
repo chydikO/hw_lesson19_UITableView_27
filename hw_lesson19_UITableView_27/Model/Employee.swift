@@ -22,4 +22,12 @@ class Employee {
         self.phone = phone
         self.email = email
     }
+    
+    static func TestData() -> [Employee] {
+        let employee1 = Employee(firstName: "Илья", lastName: "Олейник", imageName: "img1", phone: "098-522-11-23", email: "0985221123@ukr.net")
+        let employee2 = Employee(firstName: "Савелий", lastName: "Крамаров", imageName: "img1", phone: "098-522-11-23", email: "0985221123@ukr.net")
+        let employee3 = Employee(firstName: "Остап", lastName: "Бендер", imageName: "img1", phone: "098-522-11-23", email: "0985221123@ukr.net")
+        
+        return [employee1, employee2, employee3]
+    }
 }
