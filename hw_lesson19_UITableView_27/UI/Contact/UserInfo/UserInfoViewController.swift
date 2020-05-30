@@ -32,12 +32,12 @@ class UserInfoViewController: ViewController {
             self.avatar? = UIImageView()
         }
         if let phone = self.data?.phone {
-            self.phone?.text = phone
+            self.phone?.text = "\(phone)\n\(phone)\n\(phone)\n\(phone)"
         } else {
             self.phone?.text = nil
         }
         if let email = self.data?.email {
-            self.email?.text = email
+            self.email?.text = "\(email)\n\(email)\n\(email)\n\(email)"
         } else {
             self.email?.text = nil
         }

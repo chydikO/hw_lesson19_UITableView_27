@@ -29,9 +29,6 @@ class ContactViewController: TableViewController {
     //MARK: - RegisterCells
     override func registerCells() {
         self.tableView?.register(ContactTableCell.nib, forCellReuseIdentifier: ContactTableCell.reuseIdentifier)
-        
-       //self.tableView?.register(UINib(nibName: "ContactTableCell", bundle: nil), forCellReuseIdentifier: "ContactTableCell")
-
     }
     
     // MARK: - UITableViewDataSource

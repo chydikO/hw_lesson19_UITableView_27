@@ -16,7 +16,7 @@ class Employee {
     let email: String?
     
     var fullName: String {
-        return "\(firstName), \(lastName)"
+        return "\(firstName) \(lastName)"
     }
     
     init(firstName: String, lastName: String, imageName: String?, phone: String?, email: String?) {
