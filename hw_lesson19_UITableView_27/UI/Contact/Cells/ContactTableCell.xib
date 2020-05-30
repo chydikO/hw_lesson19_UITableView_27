@@ -41,22 +41,34 @@
                             </label>
                         </subviews>
                     </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xf3-Es-RXh">
+                        <rect key="frame" x="20" y="99" width="280" height="1"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="tk3-ii-JzK"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="ES2-dH-2w7" firstAttribute="leading" secondItem="3nI-6T-lBR" secondAttribute="trailing" constant="20" id="1Zb-LD-xMT"/>
+                    <constraint firstItem="Xf3-Es-RXh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="5nF-OO-s3c"/>
                     <constraint firstAttribute="trailing" secondItem="ES2-dH-2w7" secondAttribute="trailing" constant="20" id="DkX-oP-yWh"/>
-                    <constraint firstAttribute="bottom" secondItem="3nI-6T-lBR" secondAttribute="bottom" constant="10" id="G79-Yu-9BV"/>
-                    <constraint firstAttribute="bottom" secondItem="ES2-dH-2w7" secondAttribute="bottom" constant="10" id="JQg-S3-KfC"/>
                     <constraint firstItem="3nI-6T-lBR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Lsd-Kz-Xxq"/>
+                    <constraint firstItem="Xf3-Es-RXh" firstAttribute="top" secondItem="ES2-dH-2w7" secondAttribute="bottom" constant="9" id="MEC-AA-9jp"/>
                     <constraint firstItem="ES2-dH-2w7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="U0c-f3-rEM"/>
+                    <constraint firstAttribute="trailing" secondItem="Xf3-Es-RXh" secondAttribute="trailing" constant="20" id="Yd4-5k-BwJ"/>
+                    <constraint firstItem="Xf3-Es-RXh" firstAttribute="top" secondItem="3nI-6T-lBR" secondAttribute="bottom" constant="9" id="fbH-Dq-1cb"/>
+                    <constraint firstAttribute="bottom" secondItem="Xf3-Es-RXh" secondAttribute="bottom" id="oLd-9J-X9x"/>
                     <constraint firstItem="3nI-6T-lBR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="uto-ch-F2s"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="firstNameLabel" destination="b36-00-3bI" id="SFP-eO-aQj"/>
                 <outlet property="imageCell" destination="3nI-6T-lBR" id="guf-PT-xeo"/>
                 <outlet property="lastNameLabel" destination="uAw-L1-0NN" id="zig-v3-PxR"/>
+                <outlet property="separated" destination="Xf3-Es-RXh" id="vbS-6j-gPo"/>
             </connections>
             <point key="canvasLocation" x="139" y="153"/>
         </tableViewCell>

@@ -30,6 +30,7 @@ class ContactTableCell: TableCell {
         }
     }
 }
+
 extension ContactTableCell: SeparatedProtocol {
     var separatedView: UIView? {
         return separated
