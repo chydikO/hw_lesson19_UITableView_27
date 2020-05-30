@@ -14,8 +14,12 @@ class HomeViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Home"
         setupImage(name: "BashnaEvoluciaMoskva")    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationItem.title = "Home"
+    }
     
     func setupImage(name: String?) {
         if let pictureName = name {

@@ -14,8 +14,12 @@ class AboutViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "About"
         setText(text: Test.text)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationItem.title = "About"
     }
     
     func setText(text: String?){

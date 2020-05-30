@@ -16,10 +16,13 @@ class InfoViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Info"
         self.textView?.text = self.text
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationItem.title = "Info"
+    }
 
    //MARK: - init
     init(text: String?) {

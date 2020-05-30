@@ -10,14 +10,20 @@ import UIKit
 
 class ContactViewController: TableViewController {
 
+    //MARK: - setup
+    override func setup() {
+        super.setup()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Contact"
-        
+        //dataSource.append(contentsOf: [Employee.TestData()])
     }
-    
 
-   
+   override func viewWillAppear(_ animated: Bool) {
+       super.viewWillAppear(animated)
+       self.navigationItem.title = "Contact"
+   }
 
 }
